@@ -1,0 +1,84 @@
+#progresso {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+}
+
+#titulo {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#mensagemPremio {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#mensagemPremio strong {
+    color: #85ae61;
+}
+
+#profileImagem {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#profileName {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#tagFormacao {
+    color: #aa3ffe;
+    font-size: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#formacao {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#courseProgressBar {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+#courseProgressBar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #8ac761;
+    z-index: -1;
+}
+
+#courseProgressBarLabel {
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    z-index: 1;
+}
+
+#courseProgressBarBTN {
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    color: #aa3ffe;
+    border: 2px solid #aa3ffe;
+}
+
+#courseProgressBarBTN:hover {
+    background-color: #aa3ffe;
+    color: #fff;
+}

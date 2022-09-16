@@ -1,0 +1,27 @@
+#comparacaoMensalGraficoContainer {
+    height: 300px;
+}
+
+#comparacaoMensalTituloContainer #comparacaoMensalTitulo {
+    font-size: 15px;
+    font-weight: 600;
+
+    border-bottom: 2px solid #aa3ffe;
+    max-width: fit-content;
+}
+
+#comparacaoMensalTituloContainer
+    #comparacaoMensalTitulo
+    .comparacaoMensalInterrogation {
+    font-size: 30px;
+    font-weight: 600;
+    color: #aa3ffe;
+
+    cursor: pointer;
+}
+
+#comparacaoMensalTituloContainer
+    #comparacaoMensalTitulo
+    .comparacaoMensalInterrogation:hover {
+    opacity: 0.8;
+}

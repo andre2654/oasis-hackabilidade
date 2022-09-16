@@ -1,0 +1,70 @@
+.trilhaVideo {
+    height: 300px;
+    min-width: 200px;
+    width: 250px;
+    max-width: 250px;
+    background-image: url("/assets/img/Noticias/Noticia1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: inset 0 -100px 50px 0px rgba(0, 0, 0, 0.7);
+
+    transition: 0.3s;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+.trilhaVideo:hover {
+    box-shadow: inset 0 -100px 100px 20px rgba(0, 0, 0, 0.5);
+    min-width: 250px;
+    width: 300px;
+}
+
+.trilhaVideo .downloadTag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.trilhaVideo:hover .downloadTag {
+    color: yellow;
+}
+
+.trilhaVideo .trilhaVideoPlay {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 80px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trilhaVideo .trilhaVideoTitulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.trilhaVideo .trilhaVideoVerBTN {
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #aa3ffe;
+    border: none;
+
+    transition: 0.3s 0s;
+}
+
+.trilhaVideo:hover .trilhaVideoVerBTN {
+    height: 30px;
+}

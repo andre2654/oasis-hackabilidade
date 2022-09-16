@@ -1,0 +1,11 @@
+#historicoConcluidoGraficoContainer {
+    height: 400px;
+    min-height: max-content;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#historicoConcluidoGraficoContainer .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}

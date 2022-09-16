@@ -1,0 +1,20 @@
+#titleCategory {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-left: 5px solid black;
+    padding-left: 10px;
+}
+
+#cursosContainer {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+#cursosContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#trilhasContainer.destaque {
+    background-color: #e3e383;
+}

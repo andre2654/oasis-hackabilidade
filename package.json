@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/bullet": "^0.80.0",
+    "@nivo/bump": "^0.80.0",
+    "@nivo/pie": "^0.80.0",
+    "@nivo/radar": "^0.80.0",
+    "bootstrap": "^5.2.1",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-svg": "^15.1.8",
+    "sass": "^1.54.9"
   },
   "devDependencies": {
     "eslint": "8.23.1",

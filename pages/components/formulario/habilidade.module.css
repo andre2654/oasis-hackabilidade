@@ -1,0 +1,57 @@
+#formularioTituloContainer #formularioTitulo {
+    font-size: 15px;
+    font-weight: 600;
+
+    border-bottom: 2px solid #aa3ffe;
+    max-width: fit-content;
+}
+
+#formularioTituloContainer #formularioTitulo .formularioInterrogation {
+    font-size: 30px;
+    font-weight: 600;
+    color: #aa3ffe;
+
+    cursor: pointer;
+}
+
+#formularioTituloContainer #formularioTitulo .formularioInterrogation:hover {
+    opacity: 0.8;
+}
+
+#formulario #formularioForm .input,
+#formulario #formularioForm .select,
+#formulario #formularioForm .textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+#formulario #formularioForm .textarea {
+    resize: none;
+    height: 300px;
+}
+
+#formulario .small:before {
+    content: "* ";
+    font-size: 20px;
+}
+#formulario .small {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.7);
+}
+#formulario #formularioForm #inputBTN {
+    background-color: #aa3ffe;
+    color: white;
+    border: none;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    max-width: 250px;
+}
+
+#description {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    font-weight: 500;
+    text-align: right;
+}

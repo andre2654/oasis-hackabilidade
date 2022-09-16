@@ -1,0 +1,10 @@
+#comparacaoCategoriasContainer {
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#resumoHabilidadesGraficoContainer .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}

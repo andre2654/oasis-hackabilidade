@@ -1,0 +1,58 @@
+#layoutLogin {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/assets/img/Login/bg2.jpg");
+    background-size: cover;
+}
+
+#layoutLogin::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #aa3ffe;
+    opacity: 0.4;
+}
+
+#layoutLogin #layoutLoginForm {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #aa3ffe;
+    z-index: 2;
+}
+
+#header #logo {
+    min-width: max-content;
+}
+
+#layoutLogin #layoutLoginForm #logo svg {
+    width: 90px;
+    height: max-content;
+}
+
+#layoutLogin #layoutLoginForm .loginInput {
+    max-width: 250px;
+    border: 1px solid black;
+}
+
+#layoutLogin #layoutLoginForm #loginBTN {
+    background-color: #aa3ffe;
+    color: white;
+    border: none;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    max-width: 250px;
+}
+
+#description {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+    font-weight: 500;
+    max-width: 250px;
+    text-align: justify;
+}
